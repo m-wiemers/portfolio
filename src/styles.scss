@@ -4,7 +4,7 @@
 $body-bg: rgb(0, 0, 0);
 $body-color: rgb(136, 136, 136);
 $primary: rgb(255, 255, 255);
-$secondery: rgb(167, 167, 167);
+$secondery: rgb(107, 107, 107);
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -35,6 +35,16 @@ section {
 
 .card {
   background-color: #fff;
-  min-height: 25rem;
   padding: 5px;
+  margin-top: 2em;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #505050;
+  color: #fff;
+  text-align: center;
 }
