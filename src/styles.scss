@@ -4,7 +4,7 @@
 $body-bg: rgb(0, 0, 0);
 $body-color: rgb(136, 136, 136);
 $primary: rgb(255, 255, 255);
-$secondery: rgb(165, 165, 165);
+$secondery: rgb(167, 167, 167);
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -27,4 +27,14 @@ $font-family-base: Arial;
 
 body {
   background-color: #000;
+}
+
+section {
+  padding: 10px;
+}
+
+.card {
+  background-color: #fff;
+  min-height: 25rem;
+  padding: 5px;
 }
